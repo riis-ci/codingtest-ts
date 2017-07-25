@@ -25,7 +25,7 @@ public class StoreRegisterTest {
 		StoreRegister register = new StoreRegister();
 		loadInventory(register);
 	}
-	@ignore
+	@Ignore
 	public void badDataTest() throws Exception {
 		StoreRegister register = new StoreRegister();
 		
