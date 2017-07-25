@@ -2,7 +2,7 @@ language: java
 sudo: false
 install: true
 addons:
-  sonarcloud:
+  sonarcloud: https://sonarcloud.io
     organization: riis-ci-github
     token: 7bd278ca15577d17248a163146b7686f6c1e7c27
 jdk:
